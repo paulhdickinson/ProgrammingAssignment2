@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Function which takes a matrix as input, and outputs a list of length four, containing functions which store and retrieve the inverse of the matrix.
+## Function which takes a matrix as input, and outputs a list of length four, containing 
+## functions which store and retrieve the inverse of the matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -30,7 +28,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Function which takes the output list from makeCacheMatrix as input, and computes and stores the inverse if it has not already been computed, or retrieves it and displays a message if it has, and then returns the inverse.
+## Function which takes the output list from makeCacheMatrix as input, and computes and stores the 
+## inverse if it has not already been computed, or retrieves it and displays a message if it has, 
+## and then returns the inverse.
 
 cacheSolve <- function(x, ...) {
 
